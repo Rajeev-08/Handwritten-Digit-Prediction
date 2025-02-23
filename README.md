@@ -27,31 +27,31 @@ This project uses the built-in **digits dataset** from `sklearn.datasets`. The d
 git clone https://github.com/yourusername/handwritten-digit-prediction.git
 cd handwritten-digit-prediction
 ```
-## 2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 ```sh
 pip install numpy pandas matplotlib seaborn scikit-learn
 ```
-## 3️⃣ Run the Notebook
+### 3️⃣ Run the Notebook
 Open Jupyter Notebook and run:
 
 ```sh
 jupyter notebook "Handwritten Digit Prediction.ipynb"
 ```
-## 📊 Model Training & Evaluation
+### 📊 Model Training & Evaluation
 - The dataset is split into 80% training and 20% testing.
 - A Logistic Regression model is trained on the training set.
 - Evaluation Metrics:
     - Confusion Matrix for class-wise performance.
     - Classification Report for precision, recall, and F1-score.
     - Overall Accuracy Score.
-## 📸 Visualization Example
+### 📸 Visualization Example
 The dataset contains handwritten digit samples like these:
 ![Sample Digits](https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png)
 
 
 
 
-### 🔮 Future Improvements
+## 🔮 Future Improvements
 Implement a Deep Learning Model (CNN) for improved accuracy.
 Experiment with other models like SVM, KNN, Random Forest.
 Deploy the trained model using a Flask or FastAPI web app.
