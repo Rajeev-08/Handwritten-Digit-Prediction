@@ -46,6 +46,8 @@ jupyter notebook "Handwritten Digit Prediction.ipynb"
     - Overall Accuracy Score.
 ## 📸 Visualization Example
 The dataset contains handwritten digit samples like these:
+![Sample Digits](https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png)
+
 
 
 
